@@ -2,6 +2,7 @@ package com.crud.controller;
 
 import java.util.List;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +17,7 @@ import com.crud.entity.Books;
 import com.crud.service.BooksService;
 
 @RestController
-@RequestMapping
+@RequestMapping("/operation")
 public class BooksController {
 	@Autowired
 	BooksService booksService;
